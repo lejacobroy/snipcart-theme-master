@@ -1,0 +1,123 @@
+/**
+    COLOR
+
+    Where all color's variables are defined
+
+    Thanks to SASS Map, we can define all colors at one place.
+    We also respect our BEM like notation and files architecture.
+*/
+
+$palettes: (
+    action: (
+        link: #000
+    ),
+    button: (
+        background: #fff,
+        border: #696969,
+        background--highlight: #fff,
+        background--hover: #fff,
+        border--hover: #c0c0c0,
+        background--danger: #de372c,
+        background--danger-hover: darken(#de372c, 10%),
+        background--highlight-hover: #fff,
+        color: #696969,
+        color-hover: #c0c0c0,
+        color--highlight: #696969,
+        color--highlight-hover: #c0c0c0,
+    ),
+    error: (
+        color: #de372c,
+        text-color: #333,
+        text-color--invert: #fff
+    ),
+    badge: (
+        background--success: #76d443,
+        background--error: #de372c,
+        background--warn: #efe778,
+        text--success: #333,
+        text--error: #fff,
+        text--warn: #333
+    ),
+    flash: (
+        background--error: #de372c,
+        background--success: #76d443,
+        background--warning: #efe778,
+        background--confirm: #222,
+        border: #333,
+        color: #333,
+        color--invert: #fff
+    ),
+    footer: (
+        background: #fff,
+        color: #696969,
+        color--highlight: #7DD44D
+    ),
+    form: (
+        background: #fff,
+        border: #c0c0c0,
+        border--focus: #696969,
+        color: #696969,
+        color--highlight: #696969,
+        label-color: #696969
+    ),
+    header: (
+        background: #fff,
+        background--highlight: #eee,
+        color: #696969,
+        label-color: #696969
+    ),
+    layout: (
+        background: #fff,
+        border: #eee,
+        close-color: #696969 !important,
+        close-hover #c0c0c0,
+        color: #696969,
+        content-background: #f8f8f8,
+        content-border: #bbb,
+        loading-color: #333
+    ),
+    loader: (
+        background: #222,
+        background--highlight: #efe778
+    ),
+    product: (
+        background: #f8f8f8,
+        border: #eee,
+        color--error: #de372c !important,
+        color--highlight: #696969
+    ),
+    quantity-trigger: (
+        background: #fff,
+        background--hover: #c0c0c0,
+        background--disabled: #eee,
+        color: #696969,
+        color--hover: #696969 !important,
+        color--disabled: #bbb
+    ),
+    static: (
+        background--highlight: #f8f8f8,
+        border: #eee,
+        color--highlight: #333,
+        color--link: #999
+    ),
+    step: (
+        background: #e6e6e6,
+        background--active: #fff,
+        border: #e6e6e6,
+        color: #696969,
+        color--active: #696969
+    ),
+    table: (
+        background--highlight: #f8f8f8,
+        border: #eee,
+        color: #c0c0c0,
+        color--highlight: #696969,
+        color--success: #76d443
+    ),
+    tooltip: (
+        background: #ccc,
+        border: #ccc transparent,
+        label: #555,
+        text: #111
+    )
+);
